@@ -15,7 +15,9 @@ It simulates a customer implementation scenario in an R&D lab, where instrument 
 ## Project Structure
 
 materials-testing-portfolio/
+
 ├── data/
+
 │   ├── raw/        # Original messy CSVs & reference files
 │   └── processed/  # Cleaned consolidated dataset
 ├── excel/
