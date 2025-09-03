@@ -3,6 +3,7 @@
 This project showcases an end-to-end workflow for merging messy lab exports, normalizing units, enriching with metadata, applying spec limits, and building a refreshable dashboard with **Excel**.
 It simulates a customer implementation scenario in an R&D lab, where instrument outputs are inconsistent and require cleaning before being useful for KPI tracking.
 
+
 ## Objectives
 
 - Combine 3 monthly CSV exports with different delimiters, headers, and decimal formats.
@@ -12,6 +13,7 @@ It simulates a customer implementation scenario in an R&D lab, where instrument 
 - Build an interactive dashboard (PivotTables + slicers).
 - Flag data quality issues (impossible values, mislabeled units, low-variance parameters).
 
+
 ## Project Structure
 
 materials-testing-portfolio/
@@ -19,17 +21,29 @@ materials-testing-portfolio/
 ├── data/
 
 │   ├── raw/        # Original messy CSVs & reference files
+
 │   └── processed/  # Cleaned consolidated dataset
+
 ├── excel/
+
 │   └── Materials_Dashboard.xlsb   # PivotTables + Dashboard
+
 ├── docs/
+
 │   ├── Dashboard.png
+
 │   ├── Fail-pass_SpecLimits_analysis.png
+
 │   ├── Results_Errors_Analysis.png
+
 │   ├── Temperature_Errors_Analysis.png
+
 │   └── Report_for_Customer.pdf
+
 ├── README.md
+
 └── LICENSE
+
 
 ## Dashboard
 
@@ -40,11 +54,6 @@ materials-testing-portfolio/
 
 ![dashboard](https://github.com/IzaKam13/Portfolio-2_Materials-Testing_Excel-Python/blob/main/docs/Dashboard.png)
 
-## Key Metrics
-
-- Total Revenue: €243,770
-- Average Delivery Time: 6.5 days
-- Late Deliveries: ~18% in some regions
 
 ## Data Quality Findings & Open Questions
 
@@ -54,12 +63,14 @@ materials-testing-portfolio/
 **4. Outliers** – Extremely large numbers (e.g., 2.7E+308) flagged as anomalies; excluded from KPIs.
 **5. Spec Limits** – Assumed constant per Material/TestType; may need refinement by batch or instrument.
 
+
 ## Tools & Skills Demonstrated
 
 - **Excel 2016**: Power Query, PivotTables, slicers, conditional formatting
 - **Data Cleaning**: VLOOKUP (multi-key via helper columns), text normalization, missing data handling, trimming, unifying names of columns in different tables
 - **R&D Context**: Unit conversions, spec-based QC, traceability of anomalies
 - **Consulting Mindset**: Documenting assumptions, surfacing issues to customer, not “fixing silently”
+
 
 ## License
 
