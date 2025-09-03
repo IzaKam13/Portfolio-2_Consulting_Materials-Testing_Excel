@@ -32,9 +32,13 @@ It simulates a customer implementation scenario in an R&D lab, where instrument 
 ## Data Quality Findings & Open Questions
 
 **1. Units** – Different canonical units per TestType (MPa, Pa·s, S/m). Added a legend for clarity.
+
 **2. Temperatur**e – Some values near 0 K (likely mislabeled °C). Requires customer confirmation.
+
 **3. Pressure** – Nearly constant across tests, adds little value; excluded from plots.
+
 **4. Outliers** – Extremely large numbers (e.g., 2.7E+308) flagged as anomalies; excluded from KPIs.
+
 **5. Spec Limits** – Assumed constant per Material/TestType; may need refinement by batch or instrument.
 
 
