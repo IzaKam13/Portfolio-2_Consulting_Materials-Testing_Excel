@@ -16,33 +16,7 @@ It simulates a customer implementation scenario in an R&D lab, where instrument 
 
 ## Project Structure
 
-materials-testing-portfolio/
-
-├── data/
-
-│   ├── raw/        # Original messy CSVs & reference files
-
-│   └── processed/  # Cleaned consolidated dataset
-
-├── excel/
-
-│   └── Materials_Dashboard.xlsb   # PivotTables + Dashboard
-
-├── docs/
-
-│   ├── Dashboard.png
-
-│   ├── Fail-pass_SpecLimits_analysis.png
-
-│   ├── Results_Errors_Analysis.png
-
-│   ├── Temperature_Errors_Analysis.png
-
-│   └── Report_for_Customer.pdf
-
-├── README.md
-
-└── LICENSE
+<img width="382" height="271" alt="image" src="https://github.com/user-attachments/assets/f6b87c76-a614-4079-a122-03441b1760bd" />
 
 
 ## Dashboard
