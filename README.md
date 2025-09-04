@@ -22,7 +22,7 @@ It simulates a customer implementation scenario in an R&D lab, where instrument 
 ## Dashboard
 
 - Average Results by Material and TestType
-- Pass/Fail counts by Month and Material
+- Fail/Pass counts by Month and Material
 - Error analysis (% outliers per TestType, unit issues)
 - Interactive slicers for Material, TestType, Month, Pass/Fail
 
