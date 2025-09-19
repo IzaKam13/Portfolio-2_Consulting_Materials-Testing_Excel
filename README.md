@@ -1,4 +1,4 @@
-# R&D Consulting - Materials Testing - Portfolio Project
+# R&D Consulting - Materials Testing - Portfolio Project (Excel)
 
 This project showcases an end-to-end workflow for merging messy lab exports, normalizing units, enriching with metadata, applying spec limits, and building a refreshable dashboard with **Excel**.
 It simulates a customer implementation scenario in an R&D lab, where instrument outputs are inconsistent and require cleaning before being useful for KPI tracking.
